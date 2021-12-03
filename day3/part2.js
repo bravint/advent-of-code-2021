@@ -9,9 +9,9 @@ fs.readFile('./input.txt', 'utf8' , (err, data) => {
   data = data.split('\n');
 
   let oxygenGenerator = rating (data, 0, 'o2');
-  let carbonScrubber = rating (data, 0)
+  let carbonScrubber = rating (data, 0);
 
-  console.log('Life support rating of the submarine =',oxygenGenerator*carbonScrubber)
+  console.log('Life support rating of the submarine =',oxygenGenerator*carbonScrubber);
 })
 
 let ratings = 0;
